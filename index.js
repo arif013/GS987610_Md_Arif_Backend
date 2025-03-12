@@ -11,7 +11,7 @@ const app = express();
 app.use(bodyParser.json());
 // app.use(cors({ origin: 'https://gs-987610-md-arif.vercel.app/' }));
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://gs-987610-md-arif.vercel.app'],
+    origin: ['http://localhost:5173', 'https://gs-987610-md-arif.vercel.app', 'https://gs-987610-md-arif.vercel.app/login'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
