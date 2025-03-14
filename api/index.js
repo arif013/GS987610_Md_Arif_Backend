@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 //     allowedHeaders: ['Content-Type', 'Authorization'],
 //     credentials: true,
 // }));
-app.use(cors({origin: 'https://gs-987610-md-arif.vercel.app'}))
+app.use(cors({origin: ['https://gs-987610-md-arif.vercel.app', 'http://localhost:5173']}))
 // app.use(cors({origin: 'http://localhost:5173'}))
 
 // Connect to MongoDB
